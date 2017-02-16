@@ -1,0 +1,64 @@
+body {
+    font-family: 'Source Sans Pro';
+    margin: 5px 15px;
+    margin: 0.5em 1.5em;
+    padding: 0;
+}
+
+p {
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+
+#div-menu-search {
+    padding: 0;
+    background-color: #ededed;
+    padding-top: 15px;
+}
+
+#menu-search {
+    list-style: none;
+    padding: 0;
+    float: right;
+}
+
+#menu-search li {
+    float: left;
+    display: inline;
+    padding-left: 10px;
+    padding-left: 1.0em;
+}
+
+#menu-search li a {
+    text-decoration: underline;
+}
+
+#menu-search li input {
+    border-radius: 10px;
+    border-radius: 10em;
+}
+
+.navbar-default {
+    background-color: white;
+    border-color: white;
+    margin-bottom: 0;
+}
+
+#main-logo {
+    margin: 8px;
+    margin: 0.8rem;
+}
+
+#main-menu {
+    float: right;
+    margin: 8px;
+    margin: 0.8rem;
+}
+.text-section1{
+    margin-top: 10px;
+    margin-top: 0.1rem;
+}
+#section2 h2{
+    font-size: 20px;
+    font-weight: 800;
+}
