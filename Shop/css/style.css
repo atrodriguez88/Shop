@@ -8,7 +8,9 @@ body {
 p {
     font-size: 16px;
     font-size: 1.6rem;
+        text-align: justify;
 }
+
 
 #div-menu-search {
     padding: 0;
@@ -57,8 +59,65 @@ p {
 .text-section1{
     margin-top: 10px;
     margin-top: 0.1rem;
+    padding: 0;
+}
+.container-fluid{
+    padding: 0;
 }
 #section2 h2{
     font-size: 20px;
     font-weight: 800;
+}
+.items-description{
+    line-height: 20px;
+}
+.items-description h2{
+    margin: 0;
+}
+.items-description p{
+    margin: 0;
+        font-style: italic;
+}
+.items-description strong{
+    font-weight: 600;
+}
+footer{    
+    margin-top: 30px;
+    margin-top: 3.0rem;
+
+}
+footer #footer-first{
+    background-color: #ededed;
+    padding-bottom: 20px
+}
+footer ul{
+    list-style: none;
+    padding: 5px;
+    padding: 0.5rem;
+}
+footer ul li{
+        line-height: 30px;
+    line-height: 3.0rem;
+}
+footer ul li a{
+        text-decoration: underline;
+}
+footer img{
+    margin-top: 15px;
+    margin-top: 1.5rem;
+}
+footer #right{
+    margin: 10px 0px;
+        margin: 1.0rem 0;
+        text-align: center;
+    display: block;
+    background-color: white;
+}
+@media screen and (min-width: 480px) {
+}
+@media screen and (min-width: 768px) {
+}
+@media screen and (min-width: 1024px) {
+}
+@media screen and (min-width: 1400px) {
 }
