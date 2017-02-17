@@ -8,9 +8,8 @@ body {
 p {
     font-size: 16px;
     font-size: 1.6rem;
-        text-align: justify;
+    text-align: justify;
 }
-
 
 #div-menu-search {
     padding: 0;
@@ -38,6 +37,7 @@ p {
 #menu-search li input {
     border-radius: 10px;
     border-radius: 10em;
+    text-align: center;
 }
 
 .navbar-default {
@@ -46,9 +46,24 @@ p {
     margin-bottom: 0;
 }
 
+#select {
+    float: right;
+    margin-top: 18px;
+    margin-top: 1.8rem;
+    margin-right: 15px;
+    margin-right: 1.5rem;
+    font-size: 16px;
+    font-size: 1.6rem;
+    width: 100px;
+    width: 10.0rem;
+}
+
 #main-logo {
+    float: left;
     margin: 8px;
     margin: 0.8rem;
+    font-size: 30px;
+    font-size: 3.0rem;
 }
 
 #main-menu {
@@ -56,68 +71,88 @@ p {
     margin: 8px;
     margin: 0.8rem;
 }
-.text-section1{
+
+.text-section1 {
     margin-top: 10px;
     margin-top: 0.1rem;
     padding: 0;
 }
-.container-fluid{
+
+.container-fluid {
     padding: 0;
 }
-#section2 h2{
+
+#section2 h2 {
     font-size: 20px;
     font-weight: 800;
 }
-.items-description{
+
+.items-description {
     line-height: 20px;
 }
-.items-description h2{
+
+.items-description h2 {
     margin: 0;
 }
-.items-description p{
+
+.items-description p {
     margin: 0;
-        font-style: italic;
+    font-style: italic;
 }
-.items-description strong{
+
+.items-description strong {
     font-weight: 600;
 }
-footer{    
+
+footer {
     margin-top: 30px;
     margin-top: 3.0rem;
-
 }
-footer #footer-first{
+
+footer #footer-first {
     background-color: #ededed;
     padding-bottom: 20px
 }
-footer ul{
+
+footer ul {
     list-style: none;
     padding: 5px;
     padding: 0.5rem;
 }
-footer ul li{
-        line-height: 30px;
+
+footer ul li {
+    line-height: 30px;
     line-height: 3.0rem;
 }
-footer ul li a{
-        text-decoration: underline;
+
+footer ul li a {
+    text-decoration: underline;
 }
-footer img{
+
+footer img {
     margin-top: 15px;
     margin-top: 1.5rem;
 }
-footer #right{
+
+footer #right {
     margin: 10px 0px;
-        margin: 1.0rem 0;
-        text-align: center;
+    margin: 1.0rem 0;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
     display: block;
     background-color: white;
 }
+
 @media screen and (min-width: 480px) {
+    #main-logo {
+        font-size: 36px;
+        font-size: 3.6rem;
+    }
 }
-@media screen and (min-width: 768px) {
-}
-@media screen and (min-width: 1024px) {
-}
-@media screen and (min-width: 1400px) {
-}
+
+@media screen and (min-width: 768px) {}
+
+@media screen and (min-width: 1024px) {}
+
+@media screen and (min-width: 1400px) {}
