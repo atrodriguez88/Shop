@@ -151,6 +151,14 @@ h1{
 .items-description strong {
     font-weight: 600;
 }
+/*
+    Product Detail
+*/
+#img-detail img{
+        width: 100%;
+    height: 200px;
+    height: 20.0rem;
+}
 
 footer {
     margin-top: 30px;
