@@ -10,10 +10,11 @@ p {
     font-size: 1.6rem;
     text-align: justify;
 }
-h1{
-        font-size: 30px;
-        font-size: 3.0rem;
-    }
+
+h1 {
+    font-size: 30px;
+    font-size: 3.0rem;
+}
 
 #div-menu-search {
     padding: 0;
@@ -59,21 +60,25 @@ h1{
     width: 100px;
     width: 10.0rem;
 }
-#main-title{
+
+#main-title {
     padding-left: 0;
 }
+
 #main-logo {
     float: left;
     margin: 8px;
     margin: 0.8rem;
     font-size: 25px;
-    font-size: 2.5rem;    
+    font-size: 2.5rem;
 }
-#main-logo a{
+
+#main-logo a {
     color: #555;
     font-weight: 500;
 }
-#main-menu1{
+
+#main-menu1 {
     padding-right: 0;
 }
 
@@ -82,41 +87,49 @@ h1{
     margin: 8px;
     margin: 0.8rem;
 }
-#main-menu li a{
-    padding-right: 0;    
+
+#main-menu li a {
+    padding-right: 0;
 }
-#navigation{
+
+#navigation {
     display: block;
     margin-top: 20px;
     margin-top: 2.0rem;
 }
-#navigation .container{
+
+#navigation .container {
     padding: 0;
     padding-left: 10px;
     padding-left: 1.0rem;
 }
-#lst-navigation{
+
+#lst-navigation {
     list-style: none;
     padding: 0;
 }
-#lst-navigation li{
+
+#lst-navigation li {
     display: inline;
     padding-right: 10px;
     float: left;
     font-size: 12px;
-    }
-    #lst-navigation li a{
-        color: blue;
-        text-decoration: underline;
-    }
-#sort{
+}
+
+#lst-navigation li a {
+    color: blue;
+    text-decoration: underline;
+}
+
+#sort {
     margin-top: 10px;
     margin-top: 1.0rem;
     float: right;
 }
-.img-section1 img{
+
+.img-section1 img {
     width: 100%;
-        height: 250px;
+    height: 250px;
     height: 25.0rem;
 }
 
@@ -150,14 +163,65 @@ h1{
 
 .items-description strong {
     font-weight: 600;
+    ;
 }
+
+
 /*
     Product Detail
 */
-#img-detail img{
-        width: 100%;
+
+#img-detail img {
+    width: 100%;
     height: 200px;
     height: 20.0rem;
+}
+
+.money {
+    padding: 0;
+}
+
+.money strong {
+    font-size: 16px;
+    line-height: 150%;
+    margin-left: 15px;
+    margin-left: 1.5rem
+}
+
+.money input {
+    margin-top: 1px;
+    margin-top: 0.01rem;
+    margin-left: 12px;
+    margin-left: 1.2rem;
+}
+
+.money button {
+    font-size: 12px;
+    font-size: 1.2rem;
+    line-height: 1.0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#btn-quantity {
+    /*float:right;*/
+}
+.detail-list{
+    padding: 0;
+    margin-top: 20px;
+    margin-top: 2.0rem;
+}
+
+.list dt {
+    float: left;
+    clear: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.list dd {
+    clear: right;
+    float: right;
 }
 
 footer {
@@ -200,27 +264,63 @@ footer #right {
     background-color: white;
 }
 
-@media screen and (min-width: 480px) {    
+@media screen and (min-width: 480px) {
     #main-logo {
         font-size: 36px;
         font-size: 3.6rem;
     }
-    #lst-navigation li{
-    font-size: 14px;
-
+    #lst-navigation li {
+        font-size: 14px;
+    }
 }
+
+@media screen and (min-width: 768px) {
+    .money button {
+        font-size: 16px;
+        font-size: 1.6rem;
+        line-height: 1.0;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .detail-list {
+        padding: 0;
+    }
+    .list dt {
+        width: initial;
+    }
+    .list dd {
+        margin-left: 0;
+        margin-right: 10px;
+    margin-right: 1.0rem;
+    }
 }
 
-@media screen and (min-width: 768px) {}
-
-@media screen and (min-width: 1024px) {
-    #main-menu{
+@media screen and (min-width: 992px) {
+    #main-menu {
         font-size: 18px;
     }
-    #lst-navigation li{
-    font-size: 16px;
-
+    #lst-navigation li {
+        font-size: 16px;
+    }
 }
-}
 
-@media screen and (min-width: 1400px) {}
+@media screen and (min-width: 1024px) {
+    .money {
+        padding: 0;
+    }
+    .money input {
+        margin-top: 1px;
+        margin-top: 0.01rem;
+        margin-left: 12px;
+        margin-left: 1.2rem;
+    }
+    .money button {
+        font-size: 16px;
+        font-size: 1.6rem;
+        line-height: 1.0;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin-left: 42px;
+        margin-left: 4.2rem;
+    }
+}
